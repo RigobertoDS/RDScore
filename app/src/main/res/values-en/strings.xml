@@ -1,0 +1,323 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">RDScore</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">APPLY</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">Select language</string>
+
+    <!-- Navigation / Bottom Bar -->
+    <string name="nav_summary">Summary</string>
+
+    <!-- Main Screen -->
+    <string name="no_predictions">No prediction</string>
+    <string name="view_model_stats">View model statistics</string>
+    <string name="hot_odds_button">Hot Odds</string>
+
+    <!-- Match Card -->
+    <string name="finished">Finished</string>
+    <string name="prediction">Prediction</string>
+    <string name="not_available">N/A</string>
+
+    <!-- Prediction Card -->
+    <string name="probabilities">Probabilities:</string>
+    <string name="odds_label">Odds:</string>
+    <string name="recommendations">Recommendations:</string>
+    <string name="conservative">Conservative</string>
+    <string name="moderate">Moderate</string>
+    <string name="aggressive">Aggressive</string>
+
+    <!-- Filters Dialog -->
+    <string name="quick_filters">Quick Filters</string>
+    <string name="advanced_filters">Advanced Filters</string>
+    <string name="open_advanced_filters">Open advanced filters</string>
+    <string name="back_to_quick_filters">Back to quick filters</string>
+    <string name="select_deselect_all">Select/Deselect All</string>
+    <string name="result_1x2">Result (1X2)</string>
+    <string name="both_teams_score">Both Teams Score</string>
+    <string name="over_under_25">Over/Under 2.5</string>
+    <string name="tab_conservative">Cons.</string>
+    <string name="tab_moderate">Mode.</string>
+    <string name="tab_aggressive">Aggr.</string>
+
+    <!-- Banner Warning -->
+    <!--
+    <string name="banner_result_disabled_title">Notice: Result Market temporarily disabled</string>
+    <string name="banner_result_disabled_text">The Result market prediction model is undergoing recalibration.\nForecasts will be re-enabled once the adjustment is complete.</string>
+    -->
+
+    <!-- Hot Odds -->
+    <string name="hot_odds">Hot Odds</string>
+
+    <!-- LoginActivity -->
+    <string name="tv_bienvenida">Welcome to RDScore</string>
+    <string name="et_contrasena">Password</string>
+    <string name="tv_recuperar_contrasena">Forgot your password?</string>
+    <string name="bt_iniciar_sesion">Log In</string>
+    <string name="tv_registrarse">Don\'t have an account? Sign up</string>
+
+    <!-- RegisterActivity -->
+    <string name="tv_bienvenida_registro">Create account</string>
+    <string name="et_contrasena_registro">Password</string>
+    <string name="tv_ya_tienes_cuenta">Already have an account? Log in</string>
+    <string name="bt_registrar">Create Account</string>
+
+    <!-- RecoverAccountActivity -->
+    <string name="tv_bienvenida_recuperar">Recover account</string>
+    <string name="tv_recuperar">Enter your E-Mail to receive a recovery code.</string>
+    <string name="bt_mandar_email">Send E-Mail</string>
+
+    <!-- ResetPasswordActivity -->
+    <string name="tv_bienvenida_restablecer">Reset password</string>
+    <string name="tv_codigo">Enter the code you received by E-Mail.</string>
+    <string name="et_codigo">Code</string>
+    <string name="et_nueva_contrasena">New Password</string>
+    <string name="bt_restablecer">Reset</string>
+    <string name="tv_reenviar_email">Didn\'t receive the code? Try again</string>
+
+    <!-- ProfileActivity -->
+    <string name="tv_bienvenida_perfil">Profile</string>
+    <string name="bt_modificar_password">Change Password</string>
+    <string name="bt_cerrar_sesion">Log Out</string>
+    <string name="bt_eliminar_cuenta">Delete Account</string>
+
+    <!-- EditProfileActivity -->
+    <string name="tv_bienvenida_editar">Edit Profile</string>
+    <string name="et_usuario_editar">Username</string>
+    <string name="et_email_editar">E-Mail</string>
+    <string name="bt_guardar_editar">Save</string>
+    <string name="bt_cancelar_editar">Cancel</string>
+
+    <!-- EditPasswordActivity -->
+    <string name="tv_bienvenida_editar_password">Edit Password</string>
+    <string name="et_contrasena_actual_editar_password">Current Password</string>
+    <string name="et_nueva_contrasena_editar_password">New Password</string>
+    <string name="bt_guardar_editar_password">Save</string>
+    <string name="bt_cancelar_editar_password">Cancel</string>
+
+    <!-- Components -->
+    <string name="no_matches_selected_date">No matches for the selected date.</string>
+    <string name="info_recommendations">Information about recommendations</string>
+    <string name="understood">Understood</string>
+    <string name="final_result">Final Result</string>
+    <string name="header_pj">MP</string>
+    <string name="header_g">W</string>
+    <string name="header_e">D</string>
+    <string name="header_p">L</string>
+    <string name="header_pt">Pts</string>
+
+    <!-- Validation -->
+    <string name="val_name_empty">Name cannot be empty</string>
+    <string name="val_email_invalid">Enter a valid email</string>
+
+    <!-- Profile Dialogs -->
+    <string name="dialog_delete_title">Confirm deletion</string>
+    <string name="dialog_delete_message">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+
+    <!-- Labels -->
+    <string name="label_competition">Competition</string>
+
+    <!-- Stats Labels -->
+    <string name="stat_total_matches">Total Matches</string>
+    <string name="stat_record_total">Total Record (W-D-L)</string>
+    <string name="stat_home_matches">Home Matches</string>
+    <string name="stat_record_home">Home Record (W-D-L)</string>
+    <string name="stat_away_matches">Away Matches</string>
+    <string name="stat_record_away">Away Record (W-D-L)</string>
+    <string name="stat_goals_for">Goals For</string>
+    <string name="stat_goals_against">Goals Against</string>
+    <string name="stat_goal_diff">Goal Difference</string>
+    <string name="stat_goals_for_per_match">Goals For / Match</string>
+    <string name="stat_goals_against_per_match">Goals Against / Match</string>
+    <string name="stat_goals_for_home">Goals For Home</string>
+    <string name="stat_goals_against_home">Goals Against Home</string>
+    <string name="stat_goal_diff_home">Goal Diff Home</string>
+    <string name="stat_goals_for_per_match_home">Goals For / Match Home</string>
+    <string name="stat_goals_against_per_match_home">Goals Against / Match Home</string>
+    <string name="stat_goals_for_away">Goals For Away</string>
+    <string name="stat_goals_against_away">Goals Against Away</string>
+    <string name="stat_goal_diff_away">Goal Diff Away</string>
+    <string name="stat_goals_for_per_match_away">Goals For / Match Away</string>
+    <string name="stat_goals_against_per_match_away">Goals Against / Match Away</string>
+    <string name="stat_position">Position</string>
+    <string name="stat_points">Points</string>
+    <string name="stat_form">Form (last 5)</string>
+    <string name="stat_home_away_matches">Home/Away Matches</string>
+    <string name="stat_record_home_away">Home/Away Record (W-D-L)</string>
+    <string name="stat_goals_for_home_away">Goals For Home/Away</string>
+    <string name="stat_goals_against_home_away">Goals Against Home/Away</string>
+    <string name="stat_goal_diff_home_away">Goal Diff Home/Away</string>
+    <string name="stat_goals_for_per_match_home_away">Goals For / Match Home/Away</string>
+    <string name="stat_goals_against_per_match_home_away">Goals Against / Match Home/Away</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_logo">Logo</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_info">Information</string>
+    <string name="cd_change_theme">Change theme</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_edit_profile">Edit Profile</string>
+    <string name="cd_summary_icon">Summary icon</string>
+    <string name="cd_hot_odds_icon">Hot odds icon</string>
+    <string name="cd_featured">Featured</string>
+
+    <!-- Snackbar/Error Messages -->
+    <string name="error_username_empty">Username cannot be empty</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_email_invalid">Invalid email format</string>
+    <string name="error_complete_fields">Please complete all fields</string>
+
+    <!-- Features UI Labels -->
+    <string name="featured_recommendation">Featured Recommendation:</string>
+    <string name="model_market_format">Model %1$s - Market %2$s</string>
+    <string name="hits_format">(%1$d/%2$d) hits</string>
+    <string name="form_label">Form: </string>
+    <string name="next_match_label">Next match: </string>
+    <string name="no_valuable_picks_today">No valuable picks for today.</string>
+    <string name="hot_odds_disclaimer">High statistical value opportunities according to our model. Indicative odds.</string>
+    <string name="top_picks">Top Picks:</string>
+
+    <!-- UI Components -->
+    <string name="cd_team_logo">Logo %1$s</string>
+    <string name="cd_league_logo">Logo of %1$s</string>
+    <string name="cd_previous_day">Previous day</string>
+    <string name="cd_filter_matches">Filter Matches</string>
+    <string name="cd_select_date">Select date</string>
+    <string name="cd_next_day">Next day</string>
+    <string name="cd_warning_icon">Warning icon</string>
+    <string name="summary_total_matches">Total matches analyzed:</string>
+    <string name="summary_recommendations">Recommendations:</string>
+    <string name="summary_hits">Hits:</string>
+    <string name="summary_roi">ROI (Return on Investment):</string>
+    <string name="summary_title">Summary:</string>
+    <string name="pick_label">Pick:</string>
+    <string name="market_format">Market: %1$s</string>
+    <string name="prediction_format">Prediction: %1$s</string>
+    <string name="odds_format">Odds: %1$s</string>
+    <string name="probability_format">Probability: %1$s%%</string>
+    <string name="value_format">+%1$s%% Value</string>
+    <string name="error_loading_predictions">Error loading prediction data. Please retry.</string>
+    <string name="prediction_not_available">Prediction not available for this match.</string>
+    <string name="header_team">TEAM</string>
+
+    <!-- InfoDialog -->
+    <string name="info_dialog_message">This app offers statistical analysis, odds, value bets and recommendations based on mathematical models and historical data.\n\nPredictions do not guarantee results. The app does not allow betting and is not affiliated with any bookmaker.\n\nDecisions made are the sole responsibility of the user.</string>
+
+    <!-- Prediction Card Titles -->
+    <string name="winner_title">Winner:</string>
+    <string name="btts_title">Both Teams to Score:</string>
+    <string name="over_under_title">Over/Under 2.5:</string>
+
+    <!-- Odds Labels -->
+    <string name="yes_label">Yes</string>
+    <string name="no_label">No</string>
+    <string name="more_label">Over</string>
+    <string name="less_label">Under</string>
+
+    <!-- Tab Titles -->
+    <string name="tab_predictions">Predictions</string>
+    <string name="tab_statistics">Statistics</string>
+    <string name="tab_info">Information</string>
+    <string name="tab_standings">Standings</string>
+    <string name="tab_matches">Matches</string>
+
+    <!-- Model/Market Names -->
+    <string name="model_conservative">Conservative</string>
+    <string name="model_moderate">Moderate</string>
+    <string name="model_aggressive">Aggressive</string>
+    <string name="market_winner">Winner</string>
+    <string name="market_btts">Both Teams Score</string>
+    <string name="market_over_under">Over/Under 2.5</string>
+
+    <!-- Summary Formats -->
+    <string name="summary_model_format">Model %1$s Summary:</string>
+    <string name="summary_market_format">Market %1$s Summary:</string>
+
+    <!-- Info Labels -->
+    <string name="info_date">Date:</string>
+    <string name="info_time">Time:</string>
+    <string name="info_stadium">Stadium:</string>
+    <string name="info_city">City:</string>
+
+    <!-- Prediction Values (from backend) -->
+    <string name="pred_local">Home</string>
+    <string name="pred_draw">Draw</string>
+    <string name="pred_away">Away</string>
+    <string name="pred_yes">Yes</string>
+    <string name="pred_no">No</string>
+    <string name="pred_over">Over</string>
+    <string name="pred_under">Under</string>
+
+    <!-- Probability Format Labels -->
+    <string name="prob_local_format">Home: %1$s%%</string>
+    <string name="prob_draw_format">Draw: %1$s%%</string>
+    <string name="prob_away_format">Away: %1$s%%</string>
+    <string name="prob_btts_yes_format">Both Score: %1$s%%</string>
+    <string name="prob_btts_no_format">Neither Scores: %1$s%%</string>
+    <string name="prob_over_format">Over 2.5: %1$s%%</string>
+    <string name="prob_under_format">Under 2.5: %1$s%%</string>
+
+    <!-- Recommendation Labels -->
+    <string name="rec_bet">Bet</string>
+    <string name="rec_no_bet">Don\'t bet</string>
+    <string name="rec_no_data">No data</string>
+
+    <!-- Market Translations (backend values) -->
+    <string name="market_result">Result</string>
+    <string name="market_btts_full">Both Teams Score</string>
+    <string name="market_over_under_full">Over/Under 2.5</string>
+
+    <!-- Model Translations -->
+    <string name="model_aggressive_full">Aggressive</string>
+    <string name="model_moderate_full">Moderate</string>
+    <string name="model_conservative_full">Conservative</string>
+
+    <!-- Server Error Messages -->
+    <string name="error_missing_fields">Missing required fields (name, email, password)</string>
+    <string name="error_username_taken">Username is not available</string>
+    <string name="error_email_registered">Email is already registered</string>
+    <string name="success_account_created">Account created successfully</string>
+    <string name="error_missing_credentials">Missing username or password</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    
+    <!-- Forgot Password Messages -->
+    <string name="error_email_required">Email required</string>
+    <string name="msg_email_sent_if_registered">If your email is registered, you will receive an email.</string>
+    <string name="error_email_send_failed">Error sending email</string>
+    <string name="msg_email_sent">Email has been sent.</string>
+    
+    <!-- Delete Account Messages -->
+    <string name="error_user_not_found">User not found</string>
+    <string name="msg_account_deleted">Your account has been successfully deleted</string>
+    <string name="error_no_permission">You don\'t have permission to perform this action</string>
+    
+    <!-- Reset Password Messages -->
+    <string name="error_missing_data">Missing data</string>
+    <string name="error_code_invalid_expired">Invalid or expired code</string>
+    <string name="error_token_invalid">Invalid token</string>
+    <string name="msg_password_updated">Password updated successfully.</string>
+    <string name="error_token_invalid_expired">Invalid or expired token</string>
+    <string name="error_current_password_wrong">Current password is incorrect</string>
+    
+    <!-- Forma Indicators (W=Win, D=Draw, L=Loss) -->
+    <string name="form_win">W</string>
+    <string name="form_draw">D</string>
+    <string name="form_loss">L</string>
+
+    <!-- Data & Server Errors -->
+    <string name="error_data_invalid_format">Invalid data format</string>
+    <string name="error_data_not_found">Data not found</string>
+    <string name="error_data_fetch">Error fetching data</string>
+    <string name="error_server_internal">Internal server error</string>
+    <string name="success_login">Logged in successfully</string>
+    <string name="success_logout">Logged out successfully</string>
+
+    <!-- Maintenance Mode -->
+
+</resources>

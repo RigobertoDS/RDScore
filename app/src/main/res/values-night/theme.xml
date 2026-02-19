@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal para el modo oscuro -->
+    <style name="Mi.Tema" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/negro</item>
+        <item name="colorPrimaryVariant">@color/gris_oscuro</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+</resources>

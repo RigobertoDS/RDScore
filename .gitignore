@@ -1,0 +1,48 @@
+# =============================================
+# .gitignore para RDScore - Android (Kotlin/Compose)
+# =============================================
+
+# --- IDE ---
+*.iml
+.idea/
+.vscode/
+
+# --- Gradle ---
+.gradle/
+.kotlin/
+build/
+local.properties
+
+# --- Build artifacts ---
+*.apk
+*.aab
+*.dm
+*.dex
+app/release/
+/captures
+
+# --- Signing ---
+*.jks
+*.keystore
+signing.properties
+keystore.properties
+
+# --- Firebase ---
+google-services.json
+
+# --- Native ---
+.externalNativeBuild/
+.cxx/
+
+# --- Logs y temporales ---
+*.log
+*.tmp
+*.bak
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Misc ---
+*.hprof
