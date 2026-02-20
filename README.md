@@ -1,156 +1,156 @@
 <p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" width="120" alt="RDScore Logo"/>
+  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" width="120" alt="Logo de RDScore"/>
 </p>
 
 <h1 align="center">⚽ RDScore</h1>
 
 <p align="center">
-  <b>Football Match Predictions & Statistical Analysis</b><br/>
-  <i>Powered by Machine Learning Models</i>
+  <b>Predicciones de Fútbol y Análisis Estadístico</b><br/>
+  <i>Impulsado por Modelos de Machine Learning</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" alt="Platform"/>
-  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Language"/>
+  <img src="https://img.shields.io/badge/Plataforma-Android-3DDC84?logo=android&logoColor=white" alt="Plataforma"/>
+  <img src="https://img.shields.io/badge/Lenguaje-Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Lenguaje"/>
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white" alt="UI"/>
-  <img src="https://img.shields.io/badge/Min%20SDK-29-brightgreen" alt="Min SDK"/>
-  <img src="https://img.shields.io/badge/Target%20SDK-36-blue" alt="Target SDK"/>
+  <img src="https://img.shields.io/badge/Min%20SDK-29-brightgreen" alt="SDK Mínimo"/>
+  <img src="https://img.shields.io/badge/Target%20SDK-36-blue" alt="SDK Objetivo"/>
 </p>
 
 ---
 
-## 📖 About
+## 📖 Acerca de
 
-**RDScore** is a native Android application that provides **AI-driven football match predictions** and in-depth statistical analysis. It connects to a proprietary backend that runs machine learning models to generate predictions for upcoming matches across multiple European leagues.
+**RDScore** es una aplicación nativa de Android que proporciona **predicciones de fútbol basadas en IA** y un análisis estadístico profundo. Se conecta a un backend propio que ejecuta modelos de machine learning para generar pronósticos de partidos en las principales ligas europeas.
 
-> ⚠️ **Disclaimer:** RDScore is a statistical analysis tool. It does not allow betting and is not affiliated with any bookmaker. All predictions are based on mathematical models and historical data — they do not guarantee results.
+> ⚠️ **Aviso:** RDScore es una herramienta de análisis estadístico. No permite apuestas y no está afiliada a ninguna casa de apuestas. Todas las predicciones se basan en modelos matemáticos y datos históricos; no garantizan resultados.
 
 ---
 
-## ✨ Features
+## ✨ Características
 
-### 🔮 Match Predictions
-- **Three prediction models**: Conservative, Moderate, and Aggressive — each with different risk profiles
-- **Three markets**: 
-  - 🏆 **Result (1X2)** — Win/Draw/Loss probabilities
-  - ⚽ **Both Teams to Score (BTTS)** — Yes/No analysis
-  - 📊 **Over/Under 2.5 Goals** — Statistical likelihood
-- **Expected goals** calculation for each team
-- **Recommendation system**: Bet / Don't bet signals per model
+### 🔮 Predicciones de Partidos
+- **Tres modelos de predicción**: Conservador, Moderado y Agresivo — cada uno con diferentes perfiles de riesgo.
+- **Tres mercados principales**: 
+  - 🏆 **Resultado (1X2)** — Probabilidades de Victoria/Empate/Derrota.
+  - ⚽ **Ambos Equipos Marcan (BTTS)** — Análisis de Sí/No.
+  - 📊 **Más/Menos 2.5 Goles** — Probabilidad estadística.
+- **Cálculo de goles esperados** (xG) para cada equipo.
+- **Sistema de recomendación**: Señales de Apostar / No apostar según el modelo.
 
-### 🔥 Hot Odds
-- Identifies **high-value statistical opportunities** across all matches
-- Highlights picks where the model finds significant edges
+### 🔥 Cuotas Calientes (Hot Odds)
+- Identifica **oportunidades de alto valor estadístico** en todos los partidos.
+- Destaca selecciones donde el modelo encuentra una ventaja (edge) significativa.
 
-### 📈 Model Statistics & Summary
-- Track model **accuracy and ROI** over time
-- Per-market and per-model precision breakdowns
-- Total matches analyzed, hit rates, and performance summaries
+### 📈 Estadísticas del Modelo y Resumen
+- Seguimiento de la **precisión y el ROI** del modelo a lo largo del tiempo.
+- Desgloses de precisión por mercado y por modelo.
+- Resúmenes de rendimiento: total de partidos analizados y tasas de acierto.
 
-### 🏟️ Team & League Details
-- Full team statistics: record (W-D-L), goals for/against, form, position
-- Home vs away performance splits
-- League standings with full table view
-- Recent match history per team
+### 🏟️ Detalles de Equipos y Ligas
+- Estadísticas completas de equipos: récord (G-E-P), goles a favor/en contra, forma y posición.
+- Comparativa de rendimiento local vs. visitante.
+- Clasificaciones de liga con vista de tabla completa.
+- Historial de partidos recientes por equipo.
 
-### 👤 User System
-- Account registration, login, and profile management
-- Password recovery via email
-- Profile editing and account deletion
+### 👤 Sistema de Usuarios
+- Registro, inicio de sesión y gestión de perfil.
+- Recuperación de contraseña por correo electrónico.
+- Edición de perfil y eliminación de cuenta.
 
-### 🌍 Multi-language Support
-Available in **5 languages**:
+### 🌍 Soporte Multi-idioma
+Disponible en **5 idiomas**:
 
-| 🇪🇸 Español | 🇬🇧 English | 🇫🇷 Français | 🇩🇪 Deutsch | 🇮🇹 Italiano |
+| 🇪🇸 Español | 🇬🇧 Inglés | 🇫🇷 Francés | 🇩🇪 Alemán | 🇮🇹 Italiano |
 |:-:|:-:|:-:|:-:|:-:|
 | ✅ | ✅ | ✅ | ✅ | ✅ |
 
-### 🎨 Theming
-- Light and Dark mode support
-- Dynamic theme switching from the app
+### 🎨 Personalización
+- Soporte para modo claro y oscuro.
+- Cambio dinámico de tema desde los ajustes de la app.
 
 ---
 
-## 🏗️ Tech Stack
+## 🏗️ Stack Tecnológico
 
-| Layer | Technology |
+| Capa | Tecnología |
 |---|---|
-| **Language** | Kotlin |
+| **Lenguaje** | Kotlin |
 | **UI** | Jetpack Compose + Material 3 |
-| **Architecture** | MVVM + Clean Architecture |
-| **DI** | Hilt (Dagger) |
-| **Networking** | Retrofit + OkHttp |
-| **Local Storage** | Room Database + DataStore |
-| **Async** | Kotlin Coroutines + Flow |
-| **Navigation** | Jetpack Navigation Compose |
-| **Image Loading** | Coil |
+| **Arquitectura** | MVVM + Clean Architecture |
+| **Inyección (DI)** | Hilt (Dagger) |
+| **Red** | Retrofit + OkHttp |
+| **Almacenamiento** | Room Database + DataStore |
+| **Asincronía** | Kotlin Coroutines + Flow |
+| **Navegación** | Jetpack Navigation Compose |
+| **Carga de Imágenes**| Coil |
 
 ---
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```
 app/src/main/java/com/rigobertods/rdscore/
 ├── core/
-│   ├── common/         # Language, Theme managers, UiState
-│   ├── data/           # Room DB, DAOs, Entities, Mappers
-│   ├── network/        # Retrofit ApiService, Auth interceptors
-│   ├── ui/             # Theme, Colors, Typography
-│   └── util/           # Locale helpers
-├── data/               # Session management, Error handling
-├── di/                 # Hilt modules (App, Database, Network, Repository)
+│   ├── common/         # Gestores de idioma, tema, UiState
+│   ├── data/           # Room DB, DAOs, Entidades, Mappers
+│   ├── network/        # Retrofit ApiService, Interceptores de Auth
+│   ├── ui/             # Tema, Colores, Tipografía
+│   └── util/           # Ayudantes de localización (Locale)
+├── data/               # Gestión de sesión, manejo de errores
+├── di/                 # Módulos de Hilt (App, DB, Network, Repository)
 ├── features/
-│   ├── auth/           # Login, Register, Password recovery
-│   ├── cuotascalientes/# Hot Odds feature
-│   ├── equipo/         # Team details
-│   ├── ligas/          # League data
-│   ├── partidos/       # Matches, predictions, match details
-│   ├── perfil/         # User profile management
-│   └── resumen/        # Model accuracy & summary stats
+│   ├── auth/           # Login, Registro, Recuperación
+│   ├── cuotascalientes/# Funcionalidad de Hot Odds
+│   ├── equipo/         # Detalles de equipo
+│   ├── ligas/          # Datos de ligas
+│   ├── partidos/       # Partidos, predicciones, detalles
+│   ├── perfil/         # Gestión de perfil de usuario
+│   └── resumen/        # Precisión del modelo y estadísticas
 └── ui/
-    ├── components/     # Reusable Compose components
-    ├── navigation/     # Nav routes
-    └── util/           # Date utils, message mappers
+    ├── components/     # Componentes de Compose reutilizables
+    ├── navigation/     # Rutas de navegación
+    └── util/           # Utilidades de fecha, mapeo de mensajes
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Comenzando
 
-### Prerequisites
-- **Android Studio** Ladybug or newer
+### Requisitos Previos
+- **Android Studio** Ladybug o superior
 - **JDK 11+**
 - **Android SDK 36**
 
-### Build & Run
+### Construcción y Ejecución
 
 ```bash
-# Clone the repository
+# Clonar el repositorio
 git clone https://github.com/RigobertoDS/RDScore.git
 
-# Open in Android Studio and sync Gradle
-# Run on an emulator or physical device (API 29+)
+# Abrir en Android Studio y sincronizar Gradle
+# Ejecutar en un emulador o dispositivo físico (API 29+)
 ```
 
 ---
 
 ## 🔗 Backend
 
-RDScore connects to a proprietary REST API hosted at [rdscore.com](https://www.rdscore.com) that provides:
-- Match data and predictions from ML models
-- User authentication (JWT-based with token refresh)
-- Team and league statistical data
-- Hot odds calculations
+RDScore se conecta a una API REST propia alojada en [rdscore.com](https://www.rdscore.com) que proporciona:
+- Datos de partidos y predicciones de los modelos de ML.
+- Autenticación de usuarios (basada en JWT con refresco de token).
+- Datos estadísticos de equipos y ligas.
+- Cálculos de Cuotas Calientes.
 
 ---
 
-## 📄 License
+## 📄 Licencia
 
-This project is open-source for educational and portfolio purposes.  
-All rights reserved © RigobertoDS.
+Este proyecto es de código abierto con fines educativos y de portafolio.  
+Todos los derechos reservados © RigobertoDS.
 
 ---
 
 <p align="center">
-  <b>Built with ❤️ by <a href="https://github.com/RigobertoDS">RigobertoDS</a></b>
+  <b>Creado con ❤️ por <a href="https://github.com/RigobertoDS">RigobertoDS</a></b>
 </p>
